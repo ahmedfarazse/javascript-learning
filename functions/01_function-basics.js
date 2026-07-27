@@ -41,3 +41,12 @@ function welcomeMessage(){
 }
 
 welcomeMessage();
+
+
+// Practice 3
+
+function career(){
+    console.log("I want to become an AI platform Engineer.");
+}
+
+career();
