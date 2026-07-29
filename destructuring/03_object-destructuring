@@ -1,0 +1,41 @@
+
+// Object Destructuring
+
+
+const student = {
+    name: "Ahmed",
+    age: 21,
+    cgpa: 3.43
+};
+
+
+const { name, age, cgpa } = student;
+
+console.log(name);
+console.log(age);
+console.log(cgpa);
+
+
+
+// Rename Variable
+
+const student = {
+    name: "Ahmed"
+};
+
+const { name: studentName } = student;
+
+console.log(studentName);
+
+
+
+// Default Value in Object
+
+const student = {
+    name: "Ahmed"
+};
+
+const { name, age = 20 } = student;
+
+console.log(name);
+console.log(age);
